@@ -1,0 +1,85 @@
+@model ResumeMB.Models.Job
+
+@{
+    ViewData["Title"] = "Job Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Job</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Company)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Company)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FromYear)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FromYear)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ToYear)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ToYear)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IsCurrent)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IsCurrent)
+        </dd>
+        <dt>
+            @*@Html.DisplayNameFor(model => model.Accomplishments)*@
+        </dt>
+        <dd>
+            <table class="table">
+
+                @* @{bool firstTime = true; *@
+                    @foreach (var item in Model.Accomplishments)
+                    {
+                      //  if (firstTime == true)
+                      //  {
+                      //      <tr>
+                      //         <th>@Html.DisplayNameFor(model => item.Accomp)</th>
+                      //         
+                      //      </tr>
+                      //      firstTime = false;
+                      //  }
+                      //  else
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Accomp)
+                                </td>
+                            </tr>
+                        }
+                    }
+                
+            </table>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.JobID">Edit</a> |
+
+
+    <a asp-action="Index">Back to Job List</a>
+</div>

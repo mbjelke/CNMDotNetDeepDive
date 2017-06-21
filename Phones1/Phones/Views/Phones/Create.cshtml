@@ -1,0 +1,104 @@
+@model Phones.Models.Phone
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<form asp-action="Create">
+    <div class="form-horizontal">
+        <h4>Phone</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Mfg" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Mfg" class="form-control" />
+                <span asp-validation-for="Mfg" class="text-danger"></span>
+            </div>
+        </div>
+
+            <div class="form-group">
+                <label asp-for="Model" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Model" class="form-control" />
+                    <span asp-validation-for="Model" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="OS" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="OS" class="form-control" />
+                    <span asp-validation-for="OS" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Size" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Size" class="form-control" />
+                    <span asp-validation-for="Size" class="text-danger"></span>
+                </div>
+            </div>
+
+                    
+           <div class="form-group">
+                <label asp-for="Color" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Color" class="form-control" />
+                    <span asp-validation-for="Color" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CameraPix" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="CameraPix" class="form-control" />
+                    <span asp-validation-for="CameraPix" class="text-danger"></span>
+                </div>
+            </div>
+
+       
+        <div class="form-group">
+            <label asp-for="Price" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Condition" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Condition" class="form-control" />
+                <span asp-validation-for="Condition" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Release" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Release" class="form-control" />
+                <span asp-validation-for="Release" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
