@@ -10798,10 +10798,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDiveBootCamp\\ResumeProject\\ResumeProject\\ResumeProject.csproj",
+      "projectUniqueName": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDive\\ResumeProject\\ResumeProject\\ResumeProject.csproj",
       "projectName": "ResumeProject",
-      "projectPath": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDiveBootCamp\\ResumeProject\\ResumeProject\\ResumeProject.csproj",
-      "outputPath": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDiveBootCamp\\ResumeProject\\ResumeProject\\obj\\",
+      "projectPath": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDive\\ResumeProject\\ResumeProject\\ResumeProject.csproj",
+      "outputPath": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDive\\ResumeProject\\ResumeProject\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

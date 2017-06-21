@@ -11000,10 +11000,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDiveBootCamp\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectUniqueName": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDive\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDiveBootCamp\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
-      "outputPath": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDiveBootCamp\\ContosoUniversity\\ContosoUniversity\\obj\\",
+      "projectPath": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDive\\ContosoUniversity\\ContosoUniversity\\ContosoUniversity.csproj",
+      "outputPath": "C:\\Users\\mbjelke\\Projects\\CNMDotNetDeepDive\\ContosoUniversity\\ContosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -11067,7 +11067,7 @@
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[1.1.2, )"
+            "version": "1.1.2"
           },
           "Microsoft.EntityFrameworkCore.SqlServer.Design": {
             "suppressParent": "All",

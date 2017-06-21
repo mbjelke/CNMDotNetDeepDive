@@ -7,3 +7,12 @@ C:\Users\mbjelke\Projects\CNMDotNetDeepDiveBootCamp\ResumeProject\ResumeProject\
 C:\Users\mbjelke\Projects\CNMDotNetDeepDiveBootCamp\ResumeProject\ResumeProject\obj\Debug\netcoreapp1.1\ResumeProject.AssemblyInfo.cs
 C:\Users\mbjelke\Projects\CNMDotNetDeepDiveBootCamp\ResumeProject\ResumeProject\obj\Debug\netcoreapp1.1\ResumeProject.dll
 C:\Users\mbjelke\Projects\CNMDotNetDeepDiveBootCamp\ResumeProject\ResumeProject\obj\Debug\netcoreapp1.1\ResumeProject.pdb
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\bin\Debug\netcoreapp1.1\ResumeProject.deps.json
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\bin\Debug\netcoreapp1.1\ResumeProject.runtimeconfig.json
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\bin\Debug\netcoreapp1.1\ResumeProject.runtimeconfig.dev.json
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\bin\Debug\netcoreapp1.1\ResumeProject.dll
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\bin\Debug\netcoreapp1.1\ResumeProject.pdb
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\obj\Debug\netcoreapp1.1\ResumeProject.csprojResolveAssemblyReference.cache
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\obj\Debug\netcoreapp1.1\ResumeProject.AssemblyInfo.cs
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\obj\Debug\netcoreapp1.1\ResumeProject.dll
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ResumeProject\ResumeProject\obj\Debug\netcoreapp1.1\ResumeProject.pdb
