@@ -78,7 +78,7 @@ namespace ResumeProject.Models
 
 		// because there is no 'set' it's just Full Name
 		[NotMapped]
-		public string ReferenceFullName
+		public string FullName
 		{
 			get
 			{
@@ -86,7 +86,21 @@ namespace ResumeProject.Models
 			}
 		}
 
+		// because there is no 'set' it's just City, State Zip
+		[NotMapped]
+		public string CityStateZip
+		{
+			get
+			{
+				return String.Format("{0}, {1} {2}",City, State, Zip);
+			}
+		}
+
 		// navigation
+
+		// A person gets one Professional Summary
+		public virtual ProfessionalSummary ProfessionalSummary { get; set; }
+
 		// A person gets many Affiliations
 		public virtual ICollection<Affiliation> Affiliations { get; set; }
 
@@ -101,5 +115,9 @@ namespace ResumeProject.Models
 		
 		// A person gets many References
 		public virtual ICollection<Reference> References { get; set; }
+
+		// https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/read-related-data
+
+
 	}
 }

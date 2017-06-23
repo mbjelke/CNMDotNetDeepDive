@@ -8,3 +8,13 @@ C:\Users\mbjelke\Projects\CNMDotNetDeepDiveBootCamp\ContosoUniversity\ContosoUni
 C:\Users\mbjelke\Projects\CNMDotNetDeepDiveBootCamp\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp1.1\ContosoUniversity.AssemblyInfo.cs
 C:\Users\mbjelke\Projects\CNMDotNetDeepDiveBootCamp\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp1.1\ContosoUniversity.dll
 C:\Users\mbjelke\Projects\CNMDotNetDeepDiveBootCamp\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp1.1\ContosoUniversity.pdb
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp1.1\ContosoUniversity.deps.json
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp1.1\ContosoUniversity.runtimeconfig.json
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp1.1\ContosoUniversity.runtimeconfig.dev.json
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp1.1\ContosoUniversity.dll
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp1.1\ContosoUniversity.pdb
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp1.1\ContosoUniversity.csprojResolveAssemblyReference.cache
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp1.1\ContosoUniversity.AssemblyInfo.cs
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp1.1\ContosoUniversity.dll
+C:\Users\mbjelke\Projects\CNMDotNetDeepDive\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp1.1\ContosoUniversity.pdb

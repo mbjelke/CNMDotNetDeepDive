@@ -1,0 +1,72 @@
+@model ResumeProject.Models.Reference
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+
+<form asp-action="Create">
+    <div class="form-horizontal">
+        <h4>Reference</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="ReferenceFirstName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ReferenceFirstName" class="form-control" />
+                <span asp-validation-for="ReferenceFirstName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ReferenceLastName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ReferenceLastName" class="form-control" />
+                <span asp-validation-for="ReferenceLastName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ReferenceDesc" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ReferenceDesc" class="form-control" />
+                <span asp-validation-for="ReferenceDesc" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ReferencePhone" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ReferencePhone" class="form-control" />
+                <span asp-validation-for="ReferencePhone" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ReferenceEmail" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ReferenceEmail" class="form-control" />
+                <span asp-validation-for="ReferenceEmail" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+</body>
+</html>

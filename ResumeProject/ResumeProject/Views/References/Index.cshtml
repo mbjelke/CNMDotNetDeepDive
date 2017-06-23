@@ -1,0 +1,67 @@
+@model IEnumerable<ResumeProject.Models.Reference>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReferenceFirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReferenceLastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReferenceDesc)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReferencePhone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReferenceEmail)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferenceFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferenceLastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferenceDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferencePhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferenceEmail)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

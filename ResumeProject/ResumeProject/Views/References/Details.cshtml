@@ -1,0 +1,57 @@
+@model ResumeProject.Models.Reference
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+
+<div>
+    <h4>Reference</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ReferenceFirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReferenceFirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ReferenceLastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReferenceLastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ReferenceDesc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReferenceDesc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ReferencePhone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReferencePhone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ReferenceEmail)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReferenceEmail)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+</body>
+</html>

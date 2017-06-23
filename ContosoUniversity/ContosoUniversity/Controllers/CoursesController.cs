@@ -24,7 +24,7 @@ namespace ContosoUniversity.Controllers
         {
             var applicationDbContext = _context.Courses
 											.Include(c => c.Department)
-											// Any time we pull data that we arew not going to add to change or delete,use as no tracking for better performance
+											// Any time we pull data that we are not going to add to change or delete,use as no tracking for better performance
 											.AsNoTracking();
             return View(await applicationDbContext.ToListAsync());
         }
